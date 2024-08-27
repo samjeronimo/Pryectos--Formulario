@@ -1,0 +1,149 @@
+.box-login {
+    width: 100%;
+    max-width: 120rem;
+    height: 60rem;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 4.5%;
+
+    display: grid;
+    grid-template-columns: 60rem auto;
+}
+
+.box-login .formulario {
+    height: 100%;
+    padding: 10rem 12rem;
+    gap: 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8);
+}
+
+.box-login .logo {
+    grid-column: 1/9;
+    font-size: 1.5rem;
+}
+
+.box-login h2 {
+    grid-column: 1/9;
+    color: gray;
+    font-family: cursive;
+}
+
+.box-login .btn-facebook {
+    width: 20.5rem;
+    height: 3rem;
+    grid-column: 1/4;
+    background-color: rgb(39, 39, 190);
+    color: white;
+    border-radius: 3px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-login .btn-facebook img {
+    width: 10%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.box-login .btn-xing {
+    width: 20rem;
+    grid-column: 5/8;
+    border: 1px solid black;
+    height: 3rem;
+    background-color: rgb(3, 51, 3);
+    color: white;
+    border-radius: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-login .btn-xing img {
+    width: 10%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.box-login span {
+    grid-column: 1/9;
+    color: gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login {
+   grid-column: 1/9;
+}
+
+#login label {
+    display: flex;
+    flex-direction: column;
+}
+
+#login input {
+    height: 4rem;
+    border: none;
+    outline: none;
+    font-size: 1.7rem;
+    color: black;
+    font-weight: 600;
+    border-bottom: 2px solid rebeccapurple;
+}
+
+#login .opciones span {
+    color: black;
+}
+
+#login .opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#login .opciones label {
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#login .opciones label input {
+    width: 2rem;
+}
+
+#login .botones button {
+    width: 15.5rem;
+    height: 3.7rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#login .botones .btn-login {
+    color: white;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+#login .botones .btn-sign-up {
+    background-color: gray;
+    color: white;
+}
+
+.img-banner {
+    width: 100%;
+    height: 100%;
+}
+
+.img-banner img {
+    object-fit: cover;
+}
