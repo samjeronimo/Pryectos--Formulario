@@ -1,0 +1,171 @@
+.box-contacto {
+    width: 100%;
+    max-width: 90rem;
+    height: 70rem;
+    background-color: #54359d;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 4.5%;
+    padding: 2.5rem 8rem;
+
+    display: grid;
+    grid-template-rows: 45px 140px 460px;
+    grid-template-columns: 1fr  ;
+}
+
+.box-contacto .contacto h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    padding: 0.6rem 0;
+    color: palevioletred;
+}
+
+.box-contacto .emojis {
+    width: 65rem;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    margin: auto;
+    color: white;
+}
+
+.box-contacto .emojis .iconos {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3rem 3rem;
+    font-size: 1.2rem;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.box-contacto .emojis .iconos:hover {
+    transition: 0.7s;
+    border: 2px solid #fa949d;
+    position: relative;
+    color: #fa949d;
+}
+
+.box-contacto .emojis span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-contacto .emojis .iconos2 {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3rem 3.7rem;
+    font-size: 1.2rem;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.box-contacto .emojis .iconos2:hover {
+    transition: 0.7s;
+    border: 2px solid #fa949d;
+    position: relative;
+    color: #fa949d;
+}
+
+.box-contacto .emojis .iconos3 {
+    width: 20.5rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 3rem 4.5rem;
+    font-size: 1.2rem;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.box-contacto .emojis .iconos3:hover {
+    transition: 0.7s;
+    border: 2px solid #fa949d;
+    position: relative;
+    color: #fa949d;
+}
+
+.box-contacto #Cuadro-Datos {
+    width: 65rem;
+    height: 42rem;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    padding: 4rem 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 7rem 7.3rem 1fr 3rem 5rem;
+}
+
+
+#Cuadro-Datos label {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+#Cuadro-Datos input {
+    width: 100%;
+    height: 3rem;
+    margin: auto;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    border: none;
+}
+
+#Cuadro-Datos .input2 {
+    width: 100%;
+    height: 7.8rem;
+    margin: auto;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    border: none;
+}
+
+#Cuadro-Datos .opcion {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#Cuadro-Datos .opcion span {
+    color: gray;
+}
+
+#Cuadro-Datos .opcion label {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Cuadro-Datos .opcion label input {
+    width: 2rem;
+}
+
+#Cuadro-Datos .envio {
+    width: 100%;
+    height: 3.5rem;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #fa949d;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Cuadro-Datos .envio:hover {
+    background-color: #54359d;
+}
